@@ -3,7 +3,7 @@ import setuptools
 import re
 
 # Extract the version from the init file.
-VERSIONFILE="filter_choices/__init__.py"
+VERSIONFILE="Image_Filters/__init__.py"
 getversion = re.search( r"^__version__ = ['\"]([^'\"]*)['\"]", open(VERSIONFILE, "rt").read(), re.M)
 if getversion:
     new_version = getversion.group(1)
@@ -16,7 +16,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
      install_requires=['matplotlib','numpy'],        # Dependencies
      python_requires='>=3',                                   # Minimum Python version
-     name='filter_choices',                                  # Package name
+     name='Image_Filters',                                  # Package name
      version=new_version,                                     # Version
      author="Miles, Jamar,Darnell",                                     # Author name
      author_email="N/A ",                           # Author mail
