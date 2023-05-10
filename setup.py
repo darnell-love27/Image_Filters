@@ -4,7 +4,7 @@ import re
 
 # Extract the version from the init file.
 =======
-VERSIONFILE="Image_Filters/__init__.py"
+VERSIONFILE="image_filters/__init__.py"
 getversion = re.search( r"^__version__ = ['\"]([^'\"]*)['\"]", open(VERSIONFILE, "rt").read(), re.M)
 if getversion:
     new_version = getversion.group(1)
@@ -17,12 +17,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
      install_requires=['matplotlib','numpy'],        # Dependencies
      python_requires='>=3',                                   # Minimum Python version
-     name='Image_Filters',                                  # Package name
+     name='image_filters',                                  # Package name
      version=new_version,                                     # Version
      author="Miles, Jamar,Darnell",                                     # Author name
      author_email="N/A ",                           # Author mail
      description="Python package for my CSIII prject",    # Short package description
-    url="https://github.com/darnell-love27/Image_Filters",       # Url to your Git Repo
+    url="https://github.com/darnell-love27/image_filters",       # Url to your Git Repo
      packages=setuptools.find_packages(),                     # Searches throughout all dirs for files to include
      include_package_data=True,                               # Must be true to include files depicted in MANIFEST.in
      license_files=["LICENSE"],                               # License file

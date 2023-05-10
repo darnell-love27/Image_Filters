@@ -1,4 +1,4 @@
-from Image_Filters.filter import Filters
+from image_filters.Image_Filters import Filters
 
 __author__ = 'Miles Adedjouma, Jamar Bailey III, Darnell Love'
 __email__ = 'darnell.love@bison.howard.edu'
@@ -6,7 +6,7 @@ __version__ = '0.1.0'
 
 # module level doc-string
 __doc__ = """
-Image Filters
+image filters
 ================
 
 Description
