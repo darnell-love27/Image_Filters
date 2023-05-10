@@ -68,15 +68,15 @@ class Filters:
 
 
 # Read the image file
-img = mpimg.imread("valstrax.png")
+#img = mpimg.imread("valstrax.png")
 
 # Create a Filters instance
-filters = Filters(img)
+#filters = Filters(img)
 
 # Apply a filter
-filtered_img = filters.color_inversion()
+#filtered_img = filters.color_inversion()
 
 # Display the filtered image using Matplotlib
-plt.imshow(filtered_img)
-plt.show()
+#plt.imshow(filtered_img)
+#plt.show()
 
