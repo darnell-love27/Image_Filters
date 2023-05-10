@@ -2,7 +2,7 @@
 Filter Project
 ### Install Image_Filters from PyPi.
 ```bash
-pip install filter_choices
+pip install Image_Filters
 ```
 
 #### Example of code execution
