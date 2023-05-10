@@ -1,6 +1,6 @@
-# filter_choices
+# Image_Filters
 Filter Project
-### Install filter_choices from PyPi.
+### Install Image_Filters from PyPi.
 ```bash
 pip install filter_choices
 ```
@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 import random
-from filter_choices import Filters
+from Image_Filters import Filters
 
 #Important: Have your desired image to test, add the file to your program.
 # Read the image file (valstrax is an example image)
