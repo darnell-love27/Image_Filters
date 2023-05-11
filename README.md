@@ -1,8 +1,8 @@
-# filterimages
+# filterimage
 Filter Project
-### Install filterimages from PyPi.
+### Install filterimage from PyPi.
 ```bash
-pip install filterimages
+pip install filterimage
 ```
 
 #### Example of code execution
