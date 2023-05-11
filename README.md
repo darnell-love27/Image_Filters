@@ -1,26 +1,30 @@
-# relevantpackage
-
-[![Python](https://img.shields.io/pypi/pyversions/relevantpackage)](https://img.shields.io/pypi/pyversions/relevantpackage)
-[![Pypi](https://img.shields.io/pypi/v/relevantpackage)](https://pypi.org/project/relevantpackage/)
-[![LOC](https://sloc.xyz/github/erdogant/relevantpackage/?category=code)](https://github.com/erdogant/relevantpackage/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/erdogant/relevantpackage/blob/master/LICENSE)
-[![Forks](https://img.shields.io/github/forks/erdogant/relevantpackage.svg)](https://github.com/erdogant/relevantpackage/network)
-[![Issues](https://img.shields.io/github/issues/erdogant/relevantpackage.svg)](https://github.com/erdogant/relevantpackage/issues)
-[![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-
----------
-
-### Install relevantpackagefrom PyPI.
+# filterimages
+Filter Project
+### Install filterimages from PyPi.
 ```bash
-pip install relevantpackage
+pip install filterimages
 ```
 
-#### Example
+#### Example of code execution
 ```python
-  # Import library
-  from relevantpackage import Relevantpackage
-  # Initialize
-  model = Relevantpackage(message='Hello World')
-  # Run the model
-  model.show()
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import numpy as np
+import random
+from filterimages import Filters
+
+#Important: Have your desired image to test, add the file to your program.
+# Read the image file (valstrax is an example image)
+img = mpimg.imread("valstrax.png")
+
+#Initialize
+filters = Filters(img)
+
+# Apply desired filter
+filtered_img = filters.color_inversion()
+
+# Display the filtered image using Matplotlib
+plt.imshow(filtered_img)
+plt.show()
 ```
+
