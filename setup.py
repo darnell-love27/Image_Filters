@@ -16,7 +16,7 @@ setuptools.setup(
      python_requires='>=3',
      name='filterimage',
      version=new_version,
-     author="Darnell Love",
+     author="Darnell Love, Jamar Bailey III, Miles Adedjouma",
      author_email="darnell.love@bison.howard.edu",
      description="Python package for my filterimage.",
      long_description=long_description,
